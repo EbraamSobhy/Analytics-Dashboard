@@ -1,0 +1,37 @@
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 160px;
+    padding: 20px;
+}
+
+.Card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    height: 185px;
+    width: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-color: greenyellow;
+    border-style: solid;
+    border-width: medium;
+    text-align: center;
+}
+
+.Card:hover {
+    background-color: #dadce9;
+    cursor: pointer;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+

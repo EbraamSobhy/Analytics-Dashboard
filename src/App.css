@@ -1,0 +1,28 @@
+li::marker {
+    color: blue;
+}
+
+.Audience{
+    float: center;
+    font-size: 20px;
+    height: 100px;
+    font-family: roboto;
+}
+
+    table {
+        font-family: roboto;
+        border-collapse: collapse;
+        width: 100%;
+        font-weight: bolder;
+    }
+    
+    td, th {
+        border: 1px solid black;
+        text-align: left;
+        padding: 8px;
+        font-weight: bolder;
+    }
+    
+    tr:nth-child(even) {
+        background-color: dodgerblue;
+    }
