@@ -8,6 +8,7 @@ import DoughnutChart from './DoughnutChart';
 import Lines from './Lines';
 import Tables from './Table';
 import './App.css';
+import '../src/index.css';
 
 function App() {
 
@@ -32,7 +33,7 @@ function App() {
   
   return (
     <div className="App">
-      <Nav /> 
+      <Nav />
     <hr style={{borderTop:"1px solid black", width:"1570px", padding:"5px"}}></hr>
       <div style={{display:"flex"}}>
         <p>Users Gainefe</p>

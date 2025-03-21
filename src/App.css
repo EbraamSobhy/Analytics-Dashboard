@@ -2,27 +2,50 @@ li::marker {
     color: blue;
 }
 
-.Audience{
+.Audience {
     float: center;
     font-size: 20px;
     height: 100px;
     font-family: roboto;
 }
 
+table {
+    font-family: roboto;
+    border-collapse: collapse;
+    width: 100%;
+    font-weight: bolder;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    font-weight: bolder;
+}
+
+tr:nth-child(even) {
+    background-color: dodgerblue;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .Audience {
+        font-size: 18px;
+        height: 80px;
+    }
+
     table {
-        font-family: roboto;
-        border-collapse: collapse;
-        width: 100%;
-        font-weight: bolder;
+        font-size: 14px;
     }
-    
-    td, th {
-        border: 1px solid black;
-        text-align: left;
-        padding: 8px;
-        font-weight: bolder;
+}
+
+@media (max-width: 480px) {
+    .Audience {
+        font-size: 16px;
+        height: 60px;
     }
-    
-    tr:nth-child(even) {
-        background-color: dodgerblue;
+
+    table {
+        font-size: 12px;
     }
+}
